@@ -1,0 +1,64 @@
+{
+  "rutas": [
+    {
+      "id": 1,
+      "nombre": "Cerro Ñielol",
+      "imagen": "img/nielol.svg",
+      "alt": "Sendero del Cerro Ñielol",
+      "distanciaKm": 4,
+      "dificultad": "baja",
+      "accesible": true,
+      "descripcion": "Monumento natural en plena ciudad, con senderos señalizados y miradores."
+    },
+    {
+      "id": 2,
+      "nombre": "Laguna Captrén",
+      "imagen": "img/captren.svg",
+      "alt": "Laguna Captrén rodeada de cerros",
+      "distanciaKm": 2,
+      "dificultad": "baja",
+      "accesible": false,
+      "descripcion": "Paseo corto alrededor de la laguna, dentro del Parque Nacional Conguillío."
+    },
+    {
+      "id": 3,
+      "nombre": "Sierra Nevada",
+      "imagen": "img/sierra-nevada.svg",
+      "alt": "Cumbre nevada de la Sierra Nevada",
+      "distanciaKm": 7,
+      "dificultad": "alta",
+      "accesible": false,
+      "descripcion": "Subida exigente con vista a los volcanes Llaima y Villarrica."
+    },
+    {
+      "id": 4,
+      "nombre": "Costanera del Cautín",
+      "imagen": "img/rio-cautin.svg",
+      "alt": "Río Cautín con su ribera arbolada",
+      "distanciaKm": 5,
+      "dificultad": "baja",
+      "accesible": true,
+      "descripcion": "Paseo plano junto al río, con ciclovía y bancas cada pocos metros."
+    },
+    {
+      "id": 5,
+      "nombre": "Mirador Llaima",
+      "imagen": "img/llaima.svg",
+      "alt": "Volcán Llaima con nieve en la cumbre",
+      "distanciaKm": 6,
+      "dificultad": "media",
+      "accesible": false,
+      "descripcion": "Sendero con pendiente moderada hasta un mirador frente al volcán."
+    }
+  ],
+  "emprendimientos": [
+    { "id": 1, "nombre": "Café Raíces", "rubro": "Cafetería", "comuna": "Temuco" },
+    { "id": 2, "nombre": "Huerta Lafken", "rubro": "Productos orgánicos", "comuna": "Padre Las Casas" },
+    { "id": 3, "nombre": "Bici Sur", "rubro": "Arriendo de bicicletas", "comuna": "Temuco" }
+  ],
+  "resenas": [
+    { "id": 1, "rutaId": 1, "autor": "Ana", "nota": 5, "comentario": "Muy bien señalizado." },
+    { "id": 2, "rutaId": 1, "autor": "Pedro", "nota": 4, "comentario": "Ideal para ir con niños." },
+    { "id": 3, "rutaId": 3, "autor": "Camila", "nota": 5, "comentario": "Dura, pero la vista lo vale." }
+  ]
+}
