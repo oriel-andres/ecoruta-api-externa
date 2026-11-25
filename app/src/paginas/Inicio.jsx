@@ -12,6 +12,7 @@ import { Link } from "react-router";
 import BannerPrincipal from "../components/BannerPrincipal.jsx";
 import ListaRutas from "../components/ListaRutas.jsx";
 import { API_URL } from "../api.js";
+import ClimaActual from "../components/ClimaActual.jsx";
 
 export default function Inicio() {
   const [rutas, setRutas] = useState([]);
@@ -58,6 +59,8 @@ export default function Inicio() {
           Ver todas las rutas
         </Link>
       </p>
+      <ClimaActual />
+   
     </>
   );
 }
