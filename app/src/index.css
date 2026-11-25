@@ -455,3 +455,19 @@ main {
   min-height: 1.4em;
   font-size: 14px;
 }
+
+/* ---------- API externa y publicación (semana 13) ---------- */
+.aviso-clima {
+  font-weight: 700;
+  color: #1f7a4a;
+}
+
+.aviso-publicacion {
+  margin: 16px auto 0;
+  max-width: 960px;
+  padding: 12px 16px;
+  border-left: 4px solid #b7791f;
+  border-radius: 6px;
+  background: #fff7e6;
+  color: #4a3510;
+}

@@ -9,12 +9,14 @@ import Rutas from "./paginas/Rutas.jsx";
 import DetalleRuta from "./paginas/DetalleRuta.jsx";
 import Emprendimientos from "./paginas/Emprendimientos.jsx";
 import NoEncontrada from "./paginas/NoEncontrada.jsx";
+import AvisoPublicacion from "./components/AvisoPublicacion.jsx";
 
 function App() {
   return (
     <>
       <Encabezado />
       <main>
+        <AvisoPublicacion />
         <Routes>
           <Route path="/" element={<Inicio />} />
           <Route path="/rutas" element={<Rutas />} />
